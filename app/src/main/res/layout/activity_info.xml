@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.InfoActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvCompletaPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PORFAVOR COMPLETA TU PERFIL"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tvCompletaPerfil">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_marginStart="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Correo"
+            android:textSize="16sp"
+            android:layout_marginTop="56dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Nombre *"
+        android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Celular *"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:text="cc o NIT"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_marginEnd="25dp">
+
+        <TextView
+            android:id="@+id/tvInfoCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Correo"
+            android:textSize="16sp"
+            android:layout_marginTop="56dp"/>
+
+
+        <EditText
+            android:id="@+id/etInfoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+          android:hint="Nombre"
+            android:textColorHint="@color/black"
+            android:textSize="12sp" />
+        <EditText
+
+            android:id="@+id/etInfoCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="celular"
+            android:inputType="phone"
+            android:textSize="12sp"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+
+            android:id="@+id/etInfoCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="cc o nit"
+            android:textSize="12sp"
+            android:textColorHint="@color/black"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/linearLayoutInfo">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="La informacion de cédula o nit te servirá e caso de que desees publicar tus servicios"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_below="@+id/linearLayoutInfo"/>
+
+        <ImageView
+            android:id="@+id/ivInfoFotoPerfil"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvInfoCambiarFotoDePerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambiar imagen de perfil"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/linearLayoutInfo"/>
+
+        <Button
+            android:id="@+id/btnInfoGuardarCambios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar y continuar"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:backgroundTint="#F1EEEE"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

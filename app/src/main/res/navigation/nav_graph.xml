@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bnvmapa">
+    <fragment
+        android:id="@+id/bnvmapa"
+        android:name="com.example.arrrienda3.ui.Fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_bnvmapa_to_selectChatFragment"
+            app:destination="@id/selectChatFragment" />
+        <action
+            android:id="@+id/action_bnvmapa_to_publicacionesFragment"
+            app:destination="@id/bnvPublicaciones" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bnvPublicaciones"
+        android:name="com.example.arrrienda3.ui.Fragments.PublicacionesFragment"
+        android:label="fragment_publicaciones"
+        tools:layout="@layout/fragment_publicaciones" >
+        <action
+            android:id="@+id/action_publicacionesFragment_to_bnvpublicar"
+            app:destination="@id/bnvpublicar" />
+        <action
+            android:id="@+id/action_bnvPublicaciones_to_selectChatFragment"
+            app:destination="@id/selectChatFragment" />
+        <action
+            android:id="@+id/action_bnvPublicaciones_to_publicacionDialogFragment"
+            app:destination="@id/publicacionDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bnvpublicar"
+        android:name="com.example.arrrienda3.ui.Fragments.CrearpublicacionFragment"
+        android:label="fragment_crearpublicacion"
+        tools:layout="@layout/fragment_crearpublicacion" >
+        <action
+            android:id="@+id/action_crearpublicacionFragment2_to_destacadosFragment"
+            app:destination="@id/bnvdestacados" />
+        <action
+            android:id="@+id/action_bnvpublicar_to_selectChatFragment"
+            app:destination="@id/selectChatFragment" />
+        <action
+            android:id="@+id/action_bnvpublicar_to_ChatDialogFragment"
+            app:destination="@id/ChatDialogFragment" />
+        <action
+            android:id="@+id/action_bnvpublicar_to_camFragment"
+            app:destination="@id/camFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bnvdestacados"
+        android:name="com.example.arrrienda3.ui.Fragments.DestacadosFragment"
+        android:label="fragment_destacados"
+        tools:layout="@layout/fragment_destacados" >
+        <action
+            android:id="@+id/action_destacadosFragment_to_perfilFragment"
+            app:destination="@id/bnvperfil" />
+        <action
+            android:id="@+id/action_bnvdestacados_to_selectChatFragment"
+            app:destination="@id/selectChatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bnvperfil"
+        android:name="com.example.arrrienda3.ui.Fragments.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_bnvperfil_to_selectChatFragment"
+            app:destination="@id/selectChatFragment" />
+        <action
+            android:id="@+id/action_bnvperfil_to_editarPerfilFragment"
+            app:destination="@id/editarPerfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectChatFragment"
+        android:name="com.example.arrrienda3.ui.Fragments.selectChatFragment"
+        android:label="fragment_select_chat"
+        tools:layout="@layout/fragment_select_chat" />
+    <fragment
+        android:id="@+id/ChatDialogFragment"
+        android:name="com.example.arrrienda3.ui.Fragments.ChatDialogFragment"
+        android:label="fragment_chat_dialog"
+        tools:layout="@layout/fragment_chat_dialog" />
+
+    <fragment
+        android:id="@+id/camFragment"
+        android:name="com.example.arrrienda3.ui.Fragments.camFragment"
+        android:label="camFragment" >
+        <action
+            android:id="@+id/action_camFragment_to_bnvpublicar"
+            app:destination="@id/bnvpublicar" />
+    </fragment>
+    <fragment
+        android:id="@+id/publicacionDialogFragment"
+        android:name="com.example.arrrienda3.ui.Fragments.PublicacionDialogFragment"
+        android:label="PublicacionDialogFragment" >
+        <action
+            android:id="@+id/action_publicacionDialogFragment_to_fotoFragment"
+            app:destination="@id/fotoFragment" />
+        <action
+            android:id="@+id/action_publicacionDialogFragment_to_playVideoActivity"
+            app:destination="@id/playVideoActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/fotoFragment"
+        android:name="com.example.arrrienda3.ui.Fragments.FotoFragment"
+        android:label="FotoFragment" />
+    <activity
+        android:id="@+id/playVideoActivity"
+        android:name="com.example.arrrienda3.ui.Fragments.playVideoActivity"
+        android:label="activity_play_video"
+        tools:layout="@layout/activity_play_video" />
+    <fragment
+        android:id="@+id/editarPerfilFragment"
+        android:name="com.example.arrrienda3.ui.Fragments.EditarPerfilFragment"
+        android:label="EditarPerfilFragment" />
+
+</navigation>

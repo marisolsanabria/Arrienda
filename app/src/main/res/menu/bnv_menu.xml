@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bnvmapa"
+        android:title="@string/bnv_mapa"
+        android:icon="@drawable/ic_location" />
+
+    <item
+        android:id="@+id/bnvPublicaciones"
+        android:title="@string/bnv_favoritos"
+        android:icon="@drawable/favoritos_icon" />
+
+    <item
+        android:id="@+id/bnvpublicar"
+        android:title="@string/bnv_publicar"
+        android:icon="@drawable/crear_publicacion_icon" />
+
+    <item
+        android:id="@+id/bnvdestacados"
+        android:title="@string/bnv_destacados"
+        android:icon="@drawable/destacados_icon" />
+
+
+    <item
+        android:id="@+id/bnvperfil"
+        android:title="@string/bnv_perfil"
+        android:icon="@drawable/perfil_icon" />
+
+
+</menu>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">arrrienda3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bnv_mapa">Mapa</string>
+    <string name="bnv_favoritos">Favoritos</string>
+    <string name="bnv_destacados">Destacados</string>
+    <string name="bnv_publicar">publicar</string>
+    <string name="bnv_mis_ofertas">mis ofertas</string>
+    <string name="bnv_perfil">Perfil</string>
+    <string name="titulo_publicacion">APARTAMENTO EN VILLA NUEVA PARA ESTRENAR</string>
+    <string name="descrpcionpublicación"></string>
+    <string name="direccionpublicación">cll 5 #4-23</string>
+    <string name="numero_de_habitaciones">4 hab</string>
+    <string name="precio_publicacion">$1.000.000</string>
+    <string name="btnCamara">CÁMARA</string>
+    <string name="btnIrACamara">Tomar Foto</string>
+    <string name="btnIrAGalería">GALERÍA</string>
+    <string name="title_activity_log_in">logInActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="prefs_file">com.example.arrrienda3.PREFERENCE_FILE_KEY</string>
+</resources>

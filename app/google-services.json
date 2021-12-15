@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "744388082865",
+    "project_id": "arrienda3",
+    "storage_bucket": "arrienda3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744388082865:android:5decf8f8116046747eb690",
+        "android_client_info": {
+          "package_name": "com.example.arrrienda3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744388082865-1b0tqfo1p53gdirc4diqm3t9r8nqch33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZYGPGrp_k8CnH_a_T-lgSKTz0b2znLMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744388082865-1b0tqfo1p53gdirc4diqm3t9r8nqch33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
