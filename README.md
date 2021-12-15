@@ -5,7 +5,7 @@ Aplicación de publicaciones y foro
 
 ## Resume
 
-This app is created to post the states in rent or sale, the users can make the sign up login, and post their estates with a location, images, and views
+This app is created to post the states in rent or sale, the users can make the sign up login, and post their estates with a location, images, and views. it's being developed in android studio, using java, kotlin and firebase.
 
 ## Objectives
 
